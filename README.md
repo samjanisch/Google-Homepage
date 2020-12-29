@@ -1,3 +1,2 @@
 # Google-Homepage-Clone
-Recreation of Google Homepage
 For the first assignment of The Odin Project, I was tasked with creating recreating a replica of the Google Homepage. This was my first time building an HTML web page as well as using CSS to style it. I felt pretty comfortable using HTML but it was CSS where I ran into difficulty. The biggest issue I had was the arrangment of the differnt page aspects. I was able to get the header and footer of the document figured out but it was with the body where I had most difficutly. I did some googling and found that once I added those aspects to a flexbox I had figured it out. As I improve this project, I will add a dropdown list that appears when settings is clicked, which I will be learning how to add with Javascript soon. 
