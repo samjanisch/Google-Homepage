@@ -1,0 +1,244 @@
+<html>
+<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color:#000;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+#signin {
+    color: #FFF;
+    border: 1px solid #4285f4;
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    position: relative;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px; 
+    font-family: arial,sans-serif;   
+
+}
+
+#signin :hover{
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+/* Dropdown Button*/
+body{
+    font-family: arial,sans-serif;
+  
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.flexbox-item{
+    width: 400px;
+    height: 100px;
+    margin: 30px;
+    border: 3px;
+    vertical-align: middle;
+    padding: 80px;
+    }
+
+.flexbox-item-1 {
+    min-height: 200px;
+    padding: 30px;
+}
+
+.center input[type=text]{
+    padding: 5px;
+    width: 400px;
+}
+
+.buttons {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 70px;
+    margin: 12px 4px;
+    padding: 12px 16px;
+    line-height: 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+
+}
+
+.trends a {
+    text-decoration: none;
+    font-size: small;
+    font: blue;
+    margin: 10px;
+}
+
+.trends a:hover{
+    text-decoration: underline;
+}
+
+div {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    text-align: center;
+
+}
+
+.settingsbtn{
+    background-color: none;
+    color: none;
+    padding: 0px;
+    font-size: 16px;
+    border:black;
+}
+
+
+.bottomnavleft {
+    position: absolute;
+    font-family: arial,sans-serif;
+    text-align: left;
+    font-size: 14px;
+    float:left;
+    bottom: 0px;
+    text-decoration: none;
+}
+
+.bottomnavleft a {
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.bottomnavleft a:hover {
+    text-decoration: underline;
+}
+
+.bottomnavmid{
+    position: absolute;
+    font-family: arial,sans-serif;
+    text-align: left;
+    font-size: 14px;
+    float: center;
+    margin: 2px 10px 0;
+    bottom: 0px;
+    right: 45%;
+    text-decoration: none;
+}
+
+.bottomnavmid a {
+    text-decoration: none;
+}
+
+.bottomnavmid a:hover {
+    text-decoration: underline;
+}
+
+.bottomnavright{
+    font-family: arial,sans-serif;
+    text-align: left;
+    font-size: 14px;
+    position: absolute;
+    bottom: -10px;
+    right: 90px;
+    text-decoration: none;
+}
+
+.bottomnavright a {
+    text-decoration: none;
+    padding: 14px 16px;
+    float: right
+}
+
+.bottomnavright a:hover {
+    text-decoration: underline;
+}
+
+
+</style>
+<header>
+<div class="topnavbar">
+<ul>
+<li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+<li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"> Store</a></li>
+<li style="float:right"> <button id = "signin" type="button">Sign in</button></li>
+<li style="float:right"><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+<li style="float:right"> <a href="https://www.google.com/gmail/about/">Gmail</a></li>
+</ul>
+</div>
+
+</header>
+
+
+<body>
+    <div class="flexbox-container">
+        <div class= "flexbox-item flexbox-item-1">
+            <div class="center">    
+                <img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" class="logo" class="center"></a>
+                
+                
+                <input type= "text">
+                <div class="buttons">
+                <button type="submit">Google Search</button>
+                <button type='submit'>I'm Feeling Lucky</button>
+                </div>
+                <div class="trends">
+                <a href="https://about.google/intl/ALL_us/stories/year-in-search-2020/?utm_source=google&utm_medium=hpp&utm_campaign=EN-US">Explore the Search Trends of 2020</a>
+                </div>
+                </div>
+        </div>
+    
+    
+    </div>
+
+</body>
+
+<footer>
+<!-- 
+<div class= "dropdown">
+    <button class="settingsbtn">Settings </button>
+    <div class="dropdown-content">
+        <a href="https://www.google.com/preferences?hl=en">Search Settings</a>
+        <a href="https://www.google.com/advanced_search?hl=en&fg=1">Advanced Search</a>
+        <a href="https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1">Your data in Search</a>
+        <a href="https://www.google.com/history/optout?hl=en&fg=1"> Search History</a>
+        <a href="https://support.google.com/websearch/?visit_id=637442590876001396-2788992596&hl=en&rd=2#topic=3378866">Search Help</a>
+        <a href="#">Send Feedback</a>
+    </div>
+</div>
+-->
+
+<div class="bottomnavleft">
+    <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a>
+    <a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
+    <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+</div>
+
+<div class="bottomnavmid"> 
+    <a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon Neutral since 2007</a>
+</div>
+
+<div class="bottomnavright">
+<a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+<a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+<a href="#">Settings</a>
+</div>
+</footer>
+
+</html>
